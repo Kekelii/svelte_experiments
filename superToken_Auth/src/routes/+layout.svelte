@@ -2,6 +2,6 @@
 	import '../app.postcss';
 </script>
 
-<div class="w-screen h-screen bg-primary-200">
+<div class="w-screen h-screen">
 	<slot />
 </div>

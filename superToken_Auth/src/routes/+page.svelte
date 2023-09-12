@@ -3,7 +3,7 @@
 	import Right from '$lib/components/right.svelte';
 </script>
 
-<div class="flex flew-row justify-between h-full m-5">
+<div class="flex flew-row justify-between h-full p-5">
 	<Left />
 	<Right />
 </div>

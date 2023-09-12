@@ -1,10 +1,9 @@
-<div class="basis-1/2 border border-r-0 border-t-0 border-b-0 flex justify-center items-center">
-	<div class="container border border-secondary-500/50 rounded-md p-5">1</div>
-</div>
+<script>
+	import SigninPanel from './signinPanel.svelte';
+</script>
 
-<style>
-	.container {
-		height: 80%;
-		width: 60%;
-	}
-</style>
+<div
+	class="basis-1/2 border border-tertiary-500 border-r-0 border-t-0 border-b-0 flex justify-center items-center"
+>
+	<SigninPanel />
+</div>
