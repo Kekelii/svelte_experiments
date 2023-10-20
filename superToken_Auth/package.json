@@ -38,6 +38,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"cors": "^2.8.5",
+		"supertokens-node": "^15.2.0",
 		"supertokens-web-js": "^0.7.3"
 	}
 }

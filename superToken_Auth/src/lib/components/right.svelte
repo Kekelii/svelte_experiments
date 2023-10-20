@@ -1,9 +1,9 @@
-<script>
-	import SigninPanel from './signinPanel.svelte';
+<script lang="ts">
+	import FormPanels from './formPanels.svelte';
 </script>
 
 <div
-	class="basis-1/2 border border-tertiary-500 border-r-0 border-t-0 border-b-0 flex justify-center items-center"
+	class=" h-full basis-1/2 md:border border-tertiary-500 md:border-r-0 md:border-t-0 md:border-b-0 flex flex-col justify-center items-center"
 >
-	<SigninPanel />
+	<FormPanels />
 </div>
